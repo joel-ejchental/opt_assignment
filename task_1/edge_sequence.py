@@ -63,8 +63,8 @@ def verify(edge_neighbors, edge_sequence):
 
 
 def read_file(filename):
-    parent_dir = os.path.dirname(os.path.dirname(__file__))
-    sumu_dir = os.path.join(parent_dir, 'sumu_files')
+    current_dir = os.path.dirname(__file__)
+    sumu_dir = os.path.join(current_dir, 'sumu_files')
     file_path = os.path.join(sumu_dir, filename)
 
     file_parsed = ET.parse(file_path)
