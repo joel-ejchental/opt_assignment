@@ -1,0 +1,6 @@
+car_id: CAR1
+crossing_timestamp: 12.5
+---
+car_id: CAR2
+crossing_timestamp: 12.35
+---

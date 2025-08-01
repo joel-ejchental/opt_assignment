@@ -1,0 +1,17 @@
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <location netOffset="0.00,0.00" convBoundary="-300.0,-300.0,393.4399933243501,307.21943160007953" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+    <node id="I42" x="0.0" y="0.0" type="traffic_light" tl="I42"/>
+    <node id="I43" x="93.43999332435007" y="7.2194316000795435" type="traffic_light" tl="I43"/>
+    <node id="PR_42_43_" x="46.719996662175035" y="3.6097158000397718" type="priority"/>
+    <node id="PR_43_42_" x="46.719996662175035" y="3.6097158000397718" type="priority"/>
+    <node id="MI_DE_42_N_" x="-19.25829353470602" y="249.25713255618405" type="dead_end"/>
+    <node id="MI_DE_42_W_" x="-249.25713255618405" y="-19.25829353470595" type="dead_end"/>
+    <node id="MI_DE_42_S_" x="19.258293534705935" y="-249.25713255618405" type="dead_end"/>
+    <node id="MI_DE_43_E_" x="342.69712588053414" y="26.47772513478556" type="dead_end"/>
+    <node id="MI_DE_43_N_" x="74.18169978964406" y="256.4765641562636" type="dead_end"/>
+    <node id="MI_DE_43_S_" x="112.698286859056" y="-242.03770095610452" type="dead_end"/>
+    <node id="I42_N_zip" x="-16.561660732991637" y="214.35502876900463" type="zipper" tl="I42"/>
+    <node id="I42_W_zip" x="-69.79199711573153" y="-5.392322189717666" type="zipper" tl="I42"/>
+    <node id="I43_E_zip" x="163.2319904400816" y="12.611753789797227" type="zipper" tl="I43"/>
+    <node id="I43_S_zip" x="103.03423427194535" y="-116.95735401911642" type="zipper" tl="I43"/>
+</nodes>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-21 10:53:56 by Eclipse SUMO netconvert Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.nod.xml"/>
+        <edge-files value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.edg.xml"/>
+        <connection-files value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="249.26,249.26" convBoundary="0.00,0.00,591.95,505.73" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":I42_0" function="internal">
+        <lane id=":I42_0_0" index="0" allow="bicycle" speed="13.89" length="24.28" width="1.80" shape="252.44,260.03 245.34,258.98 240.60,257.51 235.85,256.04 228.75,254.99"/>
+        <lane id=":I42_0_1" index="1" speed="13.89" length="24.28" shape="252.63,257.54 245.53,256.49 240.79,255.02 236.04,253.55 228.95,252.50"/>
+        <lane id=":I42_0_2" index="2" speed="13.89" length="24.28" shape="252.88,254.35 245.78,253.30 241.03,251.83 236.29,250.36 229.19,249.31"/>
+    </edge>
+    <edge id=":I42_3" function="internal">
+        <lane id=":I42_3_0" index="0" speed="8.83" length="17.50" shape="253.12,251.16 250.75,250.02 249.23,247.05 248.55,242.23 248.71,235.57"/>
+    </edge>
+    <edge id=":I42_4" function="internal">
+        <lane id=":I42_4_0" index="0" speed="8.83" length="4.00" shape="229.93,239.74 233.93,239.84"/>
+    </edge>
+    <edge id=":I42_5" function="internal">
+        <lane id=":I42_5_0" index="0" speed="13.89" length="24.00" shape="229.69,242.93 253.62,244.78"/>
+        <lane id=":I42_5_1" index="1" speed="13.89" length="24.00" shape="229.44,246.12 253.37,247.97"/>
+    </edge>
+    <edge id=":I42_12" function="internal">
+        <lane id=":I42_12_0" index="0" speed="8.83" length="13.50" shape="233.93,239.84 236.59,239.90 241.41,239.22 244.38,237.70 245.52,235.33"/>
+    </edge>
+    <edge id=":I42_7" function="internal">
+        <lane id=":I42_7_0" index="0" speed="7.77" length="4.00" shape="233.71,263.50 233.72,259.50"/>
+    </edge>
+    <edge id=":I42_8" function="internal">
+        <lane id=":I42_8_0" index="0" speed="13.89" length="29.86" shape="236.90,263.75 238.62,254.46 241.35,247.73 244.01,241.89 245.52,235.33"/>
+        <lane id=":I42_8_1" index="1" speed="13.89" length="29.86" shape="240.09,264.00 241.81,254.71 244.54,247.97 247.20,242.14 248.71,235.57"/>
+    </edge>
+    <edge id=":I42_10" function="internal">
+        <lane id=":I42_10_0" index="0" speed="10.28" length="24.11" shape="243.29,264.24 244.51,255.47 246.65,249.31 249.68,245.74 253.62,244.78"/>
+        <lane id=":I42_10_1" index="1" speed="9.22" length="19.17" shape="246.48,264.49 247.40,257.10 248.85,251.88 250.84,248.84 253.37,247.97"/>
+    </edge>
+    <edge id=":I42_13" function="internal">
+        <lane id=":I42_13_0" index="0" speed="7.77" length="9.31" shape="233.72,259.50 233.72,258.85 232.93,255.47 231.34,253.35 228.95,252.50"/>
+    </edge>
+    <edge id=":I42_N_zip_0" function="internal">
+        <lane id=":I42_N_zip_0_0" index="0" speed="13.89" length="3.20" shape="221.53,462.75 218.34,462.50"/>
+        <lane id=":I42_N_zip_0_1" index="1" speed="13.89" length="3.20" shape="224.72,463.00 221.53,462.75"/>
+    </edge>
+    <edge id=":I42_W_zip_0" function="internal">
+        <lane id=":I42_W_zip_0_0" index="0" speed="13.89" length="1.07" shape="179.83,239.08 180.08,235.89"/>
+        <lane id=":I42_W_zip_0_1" index="1" speed="13.89" length="1.07" shape="179.83,239.08 179.83,239.08"/>
+        <lane id=":I42_W_zip_0_2" index="2" speed="13.89" length="1.07" shape="179.59,242.27 179.59,242.27"/>
+    </edge>
+    <edge id=":I43_0" function="internal">
+        <lane id=":I43_0_0" index="0" speed="8.83" length="4.00" shape="361.77,269.18 357.78,269.09"/>
+    </edge>
+    <edge id=":I43_1" function="internal">
+        <lane id=":I43_1_0" index="0" speed="13.89" length="24.00" shape="362.02,265.99 338.09,264.14"/>
+        <lane id=":I43_1_1" index="1" speed="13.89" length="24.00" shape="362.27,262.80 338.34,260.95"/>
+        <lane id=":I43_1_2" index="2" speed="13.89" length="24.00" shape="362.51,259.61 338.59,257.76"/>
+    </edge>
+    <edge id=":I43_14" function="internal">
+        <lane id=":I43_14_0" index="0" speed="8.83" length="13.50" shape="357.78,269.09 355.12,269.02 350.30,269.70 347.32,271.23 346.19,273.60"/>
+    </edge>
+    <edge id=":I43_4" function="internal">
+        <lane id=":I43_4_0" index="0" speed="7.77" length="4.00" shape="358.24,242.23 358.23,246.23"/>
+    </edge>
+    <edge id=":I43_5" function="internal">
+        <lane id=":I43_5_0" index="0" speed="13.89" length="32.97" shape="355.05,241.99 353.24,252.43 350.43,260.19 347.72,266.75 346.19,273.60"/>
+        <lane id=":I43_5_1" index="1" speed="13.89" length="32.97" shape="351.86,241.74 350.05,252.18 347.24,259.94 344.53,266.51 343.00,273.35"/>
+    </edge>
+    <edge id=":I43_7" function="internal">
+        <lane id=":I43_7_0" index="0" speed="10.28" length="24.11" shape="348.67,241.49 347.44,250.26 345.31,256.43 342.28,259.99 338.34,260.95"/>
+        <lane id=":I43_7_1" index="1" speed="9.22" length="19.17" shape="345.48,241.25 344.56,248.63 343.10,253.85 341.11,256.89 338.59,257.76"/>
+    </edge>
+    <edge id=":I43_15" function="internal">
+        <lane id=":I43_15_0" index="0" speed="7.77" length="9.31" shape="358.23,246.23 358.23,246.88 359.02,250.27 360.62,252.38 363.01,253.23"/>
+    </edge>
+    <edge id=":I43_9" function="internal">
+        <lane id=":I43_9_0" index="0" allow="bicycle" speed="13.89" length="24.28" width="1.80" shape="339.52,245.70 346.61,246.75 351.36,248.22 356.10,249.69 363.20,250.74"/>
+        <lane id=":I43_9_1" index="1" speed="13.89" length="24.28" shape="339.33,248.19 346.42,249.24 351.17,250.71 355.91,252.18 363.01,253.23"/>
+        <lane id=":I43_9_2" index="2" speed="13.89" length="24.28" shape="339.08,251.38 346.17,252.43 350.92,253.90 355.67,255.37 362.76,256.42"/>
+    </edge>
+    <edge id=":I43_12" function="internal">
+        <lane id=":I43_12_0" index="0" speed="9.51" length="20.48" shape="338.83,254.57 341.19,255.91 342.67,259.48 343.27,265.30 343.00,273.35"/>
+    </edge>
+    <edge id=":I43_13" function="internal">
+        <lane id=":I43_13_0" index="0" speed="3.65" length="4.00" shape="338.83,254.57 339.97,255.46 340.30,256.29 339.84,257.06 339.17,257.43"/>
+    </edge>
+    <edge id=":I43_16" function="internal">
+        <lane id=":I43_16_0" index="0" speed="3.65" length="0.67" shape="339.17,257.43 338.59,257.76"/>
+    </edge>
+    <edge id=":I43_E_zip_0" function="internal">
+        <lane id=":I43_E_zip_0_0" index="0" speed="13.89" length="0.80" shape="411.87,269.85 411.63,273.04"/>
+        <lane id=":I43_E_zip_0_1" index="1" speed="13.89" length="0.80" shape="411.87,269.85 411.87,269.85"/>
+        <lane id=":I43_E_zip_0_2" index="2" speed="13.89" length="0.80" shape="412.12,266.65 412.12,266.65"/>
+        <lane id=":I43_E_zip_0_3" index="3" speed="13.89" length="0.80" shape="412.37,263.46 412.37,263.46"/>
+    </edge>
+    <edge id=":I43_S_zip_0" function="internal">
+        <lane id=":I43_S_zip_0_0" index="0" speed="13.89" length="3.20" shape="363.46,133.16 366.65,133.41"/>
+        <lane id=":I43_S_zip_0_1" index="1" speed="13.89" length="3.20" shape="360.27,132.92 363.46,133.16"/>
+    </edge>
+    <edge id=":PR_42_43__0" function="internal">
+        <lane id=":PR_42_43__0_0" index="0" speed="13.89" length="9.50" width="1.80" shape="292.36,247.77 295.05,247.09 296.57,245.24 298.08,243.39 300.77,242.71"/>
+        <lane id=":PR_42_43__0_1" index="1" speed="13.89" length="9.50" shape="292.11,250.96 294.87,250.17 296.35,248.08 297.82,245.99 300.58,245.20"/>
+        <lane id=":PR_42_43__0_2" index="2" speed="13.89" length="9.50" shape="292.11,250.96 294.61,250.65 296.22,249.68 297.84,248.70 300.34,248.39"/>
+        <lane id=":PR_42_43__0_3" index="3" speed="13.89" length="9.50" shape="292.11,250.96 300.09,251.58"/>
+    </edge>
+    <edge id=":PR_43_42__0" function="internal">
+        <lane id=":PR_43_42__0_0" index="0" speed="13.89" length="8.53" width="1.80" shape="299.35,261.15 296.90,261.35 295.26,262.09 293.63,262.83 291.18,263.03"/>
+        <lane id=":PR_43_42__0_1" index="1" speed="13.89" length="8.53" shape="299.60,257.96 297.10,258.27 295.48,259.25 293.87,260.23 291.37,260.53"/>
+        <lane id=":PR_43_42__0_2" index="2" speed="13.89" length="8.53" shape="299.84,254.77 297.35,255.08 295.73,256.06 294.11,257.04 291.62,257.34"/>
+        <lane id=":PR_43_42__0_3" index="3" speed="13.89" length="8.53" shape="299.84,254.77 291.87,254.15"/>
+    </edge>
+
+    <edge id="I42_E_in" from="PR_43_42_" to="I42" priority="-1">
+        <lane id="I42_E_in_0" index="0" speed="13.89" length="38.86" width="1.80" shape="291.18,263.03 252.44,260.03"/>
+        <lane id="I42_E_in_1" index="1" speed="13.89" length="38.86" shape="291.37,260.53 252.63,257.54"/>
+        <lane id="I42_E_in_2" index="2" speed="13.89" length="38.86" shape="291.62,257.34 252.88,254.35"/>
+        <lane id="I42_E_in_3" index="3" speed="13.89" length="38.86" shape="291.87,254.15 253.12,251.16"/>
+    </edge>
+    <edge id="I42_E_out" from="I42" to="PR_42_43_" priority="-1">
+        <lane id="I42_E_out_0" index="0" speed="13.89" length="38.86" shape="253.62,244.78 292.36,247.77"/>
+        <lane id="I42_E_out_1" index="1" speed="13.89" length="38.86" shape="253.37,247.97 292.11,250.96"/>
+    </edge>
+    <edge id="I42_N_in" from="I42_N_zip" to="I42" priority="-1">
+        <lane id="I42_N_in_0" index="0" speed="13.89" length="199.59" shape="218.34,462.50 233.71,263.50"/>
+        <lane id="I42_N_in_1" index="1" speed="13.89" length="199.59" shape="221.53,462.75 236.90,263.75"/>
+        <lane id="I42_N_in_2" index="2" speed="13.89" length="199.59" shape="224.72,463.00 240.09,264.00"/>
+        <lane id="I42_N_in_3" index="3" speed="13.89" length="199.59" shape="227.91,463.24 243.29,264.24"/>
+        <lane id="I42_N_in_4" index="4" speed="13.89" length="199.59" shape="231.10,463.49 246.48,264.49"/>
+    </edge>
+    <edge id="I42_N_zip_in" from="MI_DE_42_N_" to="I42_N_zip" priority="-1">
+        <lane id="I42_N_zip_in_0" index="0" disallow="all" speed="13.89" length="35.01" shape="215.64,497.40 218.34,462.50"/>
+        <lane id="I42_N_zip_in_1" index="1" speed="13.89" length="35.01" shape="218.83,497.65 221.53,462.75"/>
+        <lane id="I42_N_zip_in_2" index="2" speed="13.89" length="35.01" shape="222.02,497.90 224.72,463.00"/>
+        <lane id="I42_N_zip_in_3" index="3" disallow="all" speed="13.89" length="35.01" shape="225.21,498.14 227.91,463.24"/>
+        <lane id="I42_N_zip_in_4" index="4" disallow="all" speed="13.89" length="35.01" shape="228.40,498.39 231.10,463.49"/>
+    </edge>
+    <edge id="I42_S_out" from="I42" to="MI_DE_42_S_" priority="-1">
+        <lane id="I42_S_out_0" index="0" speed="13.89" length="236.40" shape="245.52,235.33 263.73,-0.37"/>
+        <lane id="I42_S_out_1" index="1" speed="13.89" length="236.40" shape="248.71,235.57 266.92,-0.12"/>
+    </edge>
+    <edge id="I42_W_in" from="I42_W_zip" to="I42" priority="-1">
+        <lane id="I42_W_in_0" index="0" speed="13.89" length="50.00" shape="180.08,235.89 229.93,239.74"/>
+        <lane id="I42_W_in_1" index="1" speed="13.89" length="50.00" shape="179.83,239.08 229.69,242.93"/>
+        <lane id="I42_W_in_2" index="2" speed="13.89" length="50.00" shape="179.59,242.27 229.44,246.12"/>
+    </edge>
+    <edge id="I42_W_out" from="I42" to="MI_DE_42_W_" priority="-1">
+        <lane id="I42_W_out_0" index="0" allow="bicycle" speed="13.89" length="230.00" width="1.80" shape="228.75,254.99 -0.56,237.28"/>
+        <lane id="I42_W_out_1" index="1" speed="13.89" length="230.00" shape="228.95,252.50 -0.37,234.78"/>
+        <lane id="I42_W_out_2" index="2" speed="13.89" length="230.00" shape="229.19,249.31 -0.12,231.59"/>
+    </edge>
+    <edge id="I42_W_zip_in" from="MI_DE_42_W_" to="I42_W_zip" priority="-1">
+        <lane id="I42_W_zip_in_0" index="0" disallow="all" speed="13.89" length="180.00" shape="0.62,222.02 180.08,235.89"/>
+        <lane id="I42_W_zip_in_1" index="1" speed="13.89" length="180.00" shape="0.37,225.21 179.83,239.08"/>
+        <lane id="I42_W_zip_in_2" index="2" speed="13.89" length="180.00" shape="0.12,228.40 179.59,242.27"/>
+    </edge>
+    <edge id="I43_E_in" from="I43_E_zip" to="I43" priority="-1">
+        <lane id="I43_E_in_0" index="0" speed="13.89" length="50.00" shape="411.63,273.04 361.77,269.18"/>
+        <lane id="I43_E_in_1" index="1" speed="13.89" length="50.00" shape="411.87,269.85 362.02,265.99"/>
+        <lane id="I43_E_in_2" index="2" speed="13.89" length="50.00" shape="412.12,266.65 362.27,262.80"/>
+        <lane id="I43_E_in_3" index="3" speed="13.89" length="50.00" shape="412.37,263.46 362.51,259.61"/>
+    </edge>
+    <edge id="I43_E_out" from="I43" to="MI_DE_43_E_" priority="-1">
+        <lane id="I43_E_out_0" index="0" allow="bicycle" speed="13.89" length="230.00" width="1.80" shape="363.20,250.74 592.52,268.46"/>
+        <lane id="I43_E_out_1" index="1" speed="13.89" length="230.00" shape="363.01,253.23 592.32,270.95"/>
+        <lane id="I43_E_out_2" index="2" speed="13.89" length="230.00" shape="362.76,256.42 592.08,274.14"/>
+    </edge>
+    <edge id="I43_E_zip_in" from="MI_DE_43_E_" to="I43_E_zip" priority="-1">
+        <lane id="I43_E_zip_in_0" index="0" disallow="all" speed="13.89" length="180.00" shape="591.09,286.90 411.63,273.04"/>
+        <lane id="I43_E_zip_in_1" index="1" speed="13.89" length="180.00" shape="591.34,283.71 411.87,269.85"/>
+        <lane id="I43_E_zip_in_2" index="2" speed="13.89" length="180.00" shape="591.58,280.52 412.12,266.65"/>
+        <lane id="I43_E_zip_in_3" index="3" speed="13.89" length="180.00" shape="591.83,277.33 412.37,263.46"/>
+    </edge>
+    <edge id="I43_N_out" from="I43" to="MI_DE_43_N_" priority="-1">
+        <lane id="I43_N_out_0" index="0" speed="13.89" length="233.20" shape="346.19,273.60 328.22,506.10"/>
+        <lane id="I43_N_out_1" index="1" speed="13.89" length="233.20" shape="343.00,273.35 325.03,505.86"/>
+    </edge>
+    <edge id="I43_S_in" from="I43_S_zip" to="I43" priority="-1">
+        <lane id="I43_S_in_0" index="0" speed="13.89" length="109.15" shape="366.65,133.41 358.24,242.23"/>
+        <lane id="I43_S_in_1" index="1" speed="13.89" length="109.15" shape="363.46,133.16 355.05,241.99"/>
+        <lane id="I43_S_in_2" index="2" speed="13.89" length="109.15" shape="360.27,132.92 351.86,241.74"/>
+        <lane id="I43_S_in_3" index="3" speed="13.89" length="109.15" shape="357.08,132.67 348.67,241.49"/>
+        <lane id="I43_S_in_4" index="4" speed="13.89" length="109.15" shape="353.89,132.42 345.48,241.25"/>
+    </edge>
+    <edge id="I43_S_zip_in" from="MI_DE_43_S_" to="I43_S_zip" priority="-1">
+        <lane id="I43_S_zip_in_0" index="0" disallow="all" speed="13.89" length="125.45" shape="376.31,8.33 366.65,133.41"/>
+        <lane id="I43_S_zip_in_1" index="1" speed="13.89" length="125.45" shape="373.12,8.08 363.46,133.16"/>
+        <lane id="I43_S_zip_in_2" index="2" speed="13.89" length="125.45" shape="369.93,7.84 360.27,132.92"/>
+        <lane id="I43_S_zip_in_3" index="3" disallow="all" speed="13.89" length="125.45" shape="366.74,7.59 357.08,132.67"/>
+        <lane id="I43_S_zip_in_4" index="4" disallow="all" speed="13.89" length="125.45" shape="363.55,7.34 353.89,132.42"/>
+    </edge>
+    <edge id="I43_W_in" from="PR_42_43_" to="I43" priority="-1">
+        <lane id="I43_W_in_0" index="0" speed="13.89" length="38.86" width="1.80" shape="300.77,242.71 339.52,245.70"/>
+        <lane id="I43_W_in_1" index="1" speed="13.89" length="38.86" shape="300.58,245.20 339.33,248.19"/>
+        <lane id="I43_W_in_2" index="2" speed="13.89" length="38.86" shape="300.34,248.39 339.08,251.38"/>
+        <lane id="I43_W_in_3" index="3" speed="13.89" length="38.86" shape="300.09,251.58 338.83,254.57"/>
+    </edge>
+    <edge id="I43_W_out" from="I43" to="PR_43_42_" priority="-1">
+        <lane id="I43_W_out_0" index="0" speed="13.89" length="38.86" shape="338.09,264.14 299.35,261.15"/>
+        <lane id="I43_W_out_1" index="1" speed="13.89" length="38.86" shape="338.34,260.95 299.60,257.96"/>
+        <lane id="I43_W_out_2" index="2" speed="13.89" length="38.86" shape="338.59,257.76 299.84,254.77"/>
+    </edge>
+
+    <tlLogic id="I42" type="static" programID="0" offset="0">
+        <phase duration="38" state="GGGgGGrrrr"/>
+        <phase duration="3"  state="yyygyyrrrr"/>
+        <phase duration="6"  state="GGGGrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrr"/>
+        <phase duration="37" state="rrrrrrGGGG"/>
+        <phase duration="3"  state="rrrrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="I43" type="static" programID="0" offset="0">
+        <phase duration="38" state="GGGrrrrGGGgg"/>
+        <phase duration="3"  state="yyyrrrryyygg"/>
+        <phase duration="6"  state="rrrrrrrGGGGG"/>
+        <phase duration="3"  state="rrrrrrryyyyy"/>
+        <phase duration="37" state="rrrGGGGrrrrr"/>
+        <phase duration="3"  state="rrryyyyrrrrr"/>
+    </tlLogic>
+
+    <junction id="I42" type="traffic_light" x="249.26" y="249.26" incLanes="I42_E_in_0 I42_E_in_1 I42_E_in_2 I42_E_in_3 I42_W_in_0 I42_W_in_1 I42_W_in_2 I42_N_in_0 I42_N_in_1 I42_N_in_2 I42_N_in_3 I42_N_in_4" intLanes=":I42_0_0 :I42_0_1 :I42_0_2 :I42_3_0 :I42_12_0 :I42_5_0 :I42_5_1 :I42_13_0 :I42_8_0 :I42_8_1 :I42_10_0 :I42_10_1" shape="252.37,260.93 253.74,243.18 251.58,242.22 250.89,241.16 250.44,239.72 250.25,237.90 250.30,235.70 243.92,235.20 242.25,237.30 240.30,237.93 237.62,238.28 234.21,238.35 230.06,238.14 228.68,255.89 230.84,256.86 231.54,257.92 231.98,259.36 232.18,261.18 232.12,263.38 248.07,264.61 248.69,262.43 249.30,261.70 250.12,261.20 251.14,260.95">
+        <request index="0"  response="000000000000" foes="111110000000" cont="0"/>
+        <request index="1"  response="000000000000" foes="111110000000" cont="0"/>
+        <request index="2"  response="000000000000" foes="111110000000" cont="0"/>
+        <request index="3"  response="000001100000" foes="111101100000" cont="0"/>
+        <request index="4"  response="001100000000" foes="001100000000" cont="1"/>
+        <request index="5"  response="000000000000" foes="111100001000" cont="0"/>
+        <request index="6"  response="000000000000" foes="111100001000" cont="0"/>
+        <request index="7"  response="000000000111" foes="000000000111" cont="1"/>
+        <request index="8"  response="000001101111" foes="000001111111" cont="0"/>
+        <request index="9"  response="000001101111" foes="000001111111" cont="0"/>
+        <request index="10" response="000001101111" foes="000001101111" cont="0"/>
+        <request index="11" response="000001101111" foes="000001101111" cont="0"/>
+    </junction>
+    <junction id="I42_N_zip" type="zipper" x="232.70" y="463.61" incLanes="I42_N_zip_in_0 I42_N_zip_in_1 I42_N_zip_in_2 I42_N_zip_in_3 I42_N_zip_in_4" intLanes=":I42_N_zip_0_0 :I42_N_zip_0_1" shape="232.70,463.61 219.93,462.63 226.31,463.12">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="I42_W_zip" type="zipper" x="179.47" y="243.86" incLanes="I42_W_zip_in_0 I42_W_zip_in_1 I42_W_zip_in_2" intLanes=":I42_W_zip_0_0 :I42_W_zip_0_1 :I42_W_zip_0_2" shape="179.47,243.86 179.96,237.48 179.47,243.86">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="I43" type="traffic_light" x="342.70" y="256.48" incLanes="I43_E_in_0 I43_E_in_1 I43_E_in_2 I43_E_in_3 I43_S_in_0 I43_S_in_1 I43_S_in_2 I43_S_in_3 I43_S_in_4 I43_W_in_0 I43_W_in_1 I43_W_in_2 I43_W_in_3" intLanes=":I43_14_0 :I43_1_0 :I43_1_1 :I43_1_2 :I43_15_0 :I43_5_0 :I43_5_1 :I43_7_0 :I43_7_1 :I43_9_0 :I43_9_1 :I43_9_2 :I43_12_0 :I43_16_0" shape="361.65,270.78 363.27,249.84 361.12,248.87 360.42,247.82 359.97,246.38 359.78,244.56 359.84,242.35 343.88,241.12 343.27,243.30 342.66,244.04 341.84,244.53 340.81,244.79 339.59,244.80 337.97,265.74 340.12,266.71 340.82,267.77 341.27,269.20 341.46,271.02 341.40,273.23 347.78,273.72 349.46,271.62 351.40,270.99 354.08,270.64 357.50,270.57">
+        <request index="0"  response="00000001100000" foes="00000001100000" cont="1"/>
+        <request index="1"  response="00000000000000" foes="11000111100000" cont="0"/>
+        <request index="2"  response="00000000000000" foes="11000111100000" cont="0"/>
+        <request index="3"  response="00000000000000" foes="11000111100000" cont="0"/>
+        <request index="4"  response="00111000000000" foes="00111000000000" cont="1"/>
+        <request index="5"  response="01111000001110" foes="01111000001111" cont="0"/>
+        <request index="6"  response="01111000001110" foes="01111000001111" cont="0"/>
+        <request index="7"  response="01111000001110" foes="11111000001110" cont="0"/>
+        <request index="8"  response="01111000001110" foes="11111000001110" cont="0"/>
+        <request index="9"  response="00000000000000" foes="00000111110000" cont="0"/>
+        <request index="10" response="00000000000000" foes="00000111110000" cont="0"/>
+        <request index="11" response="00000000000000" foes="00000111110000" cont="0"/>
+        <request index="12" response="00000000001110" foes="00000111101110" cont="0"/>
+        <request index="13" response="00000110001110" foes="00000110001110" cont="1"/>
+    </junction>
+    <junction id="I43_E_zip" type="zipper" x="412.49" y="261.87" incLanes="I43_E_zip_in_0 I43_E_zip_in_1 I43_E_zip_in_2 I43_E_zip_in_3" intLanes=":I43_E_zip_0_0 :I43_E_zip_0_1 :I43_E_zip_0_2 :I43_E_zip_0_3" shape="411.75,271.44 412.49,261.87 411.50,274.63">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="I43_S_zip" type="zipper" x="352.29" y="132.30" incLanes="I43_S_zip_in_0 I43_S_zip_in_1 I43_S_zip_in_2 I43_S_zip_in_3 I43_S_zip_in_4" intLanes=":I43_S_zip_0_0 :I43_S_zip_0_1" shape="365.05,133.29 352.29,132.30 368.24,133.53">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="MI_DE_42_N_" type="dead_end" x="230.00" y="498.51" incLanes="" intLanes="" shape="223.62,498.02 217.24,497.53"/>
+    <junction id="MI_DE_42_S_" type="dead_end" x="268.52" y="0.00" incLanes="I42_S_out_0 I42_S_out_1" intLanes="" shape="262.13,-0.49 268.52,-0.00"/>
+    <junction id="MI_DE_42_W_" type="dead_end" x="0.00" y="230.00" incLanes="I42_W_out_0 I42_W_out_1 I42_W_out_2" intLanes="" shape="0.00,230.00 -0.63,238.17 -0.00,230.00"/>
+    <junction id="MI_DE_43_E_" type="dead_end" x="591.95" y="275.73" incLanes="I43_E_out_0 I43_E_out_1 I43_E_out_2" intLanes="" shape="591.95,275.73 592.59,267.56 591.95,275.73"/>
+    <junction id="MI_DE_43_N_" type="dead_end" x="323.44" y="505.73" incLanes="I43_N_out_0 I43_N_out_1" intLanes="" shape="329.82,506.23 323.44,505.73"/>
+    <junction id="MI_DE_43_S_" type="dead_end" x="361.96" y="7.22" incLanes="" intLanes="" shape="368.34,7.71 374.72,8.21"/>
+    <junction id="PR_42_43_" type="priority" x="295.98" y="252.87" incLanes="I42_E_out_0 I42_E_out_1" intLanes=":PR_42_43__0_0 :PR_42_43__0_1 :PR_42_43__0_2 :PR_42_43__0_3" shape="299.97,253.17 300.84,241.81 297.63,242.86 295.69,245.13 294.41,245.96 292.48,246.18 291.99,252.56">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="PR_43_42_" type="priority" x="295.98" y="252.87" incLanes="I43_W_out_0 I43_W_out_1 I43_W_out_2" intLanes=":PR_43_42__0_0 :PR_43_42__0_1 :PR_43_42__0_2 :PR_43_42__0_3" shape="299.23,262.75 299.97,253.17 291.99,252.56 291.11,263.92 294.12,263.69 296.21,262.98 297.49,262.75">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+
+    <junction id=":I42_12_0" type="internal" x="233.93" y="239.84" incLanes=":I42_4_0 I42_E_in_3 I42_N_in_1 I42_N_in_2" intLanes=":I42_3_0 :I42_8_0 :I42_8_1"/>
+    <junction id=":I42_13_0" type="internal" x="233.72" y="259.50" incLanes=":I42_7_0 I42_E_in_0 I42_E_in_1 I42_E_in_2" intLanes=":I42_0_0 :I42_0_1 :I42_0_2"/>
+    <junction id=":I43_14_0" type="internal" x="357.78" y="269.09" incLanes=":I43_0_0 I43_S_in_1 I43_S_in_2 I43_W_in_3" intLanes=":I43_5_0 :I43_5_1 :I43_12_0"/>
+    <junction id=":I43_15_0" type="internal" x="358.23" y="246.23" incLanes=":I43_4_0 I43_W_in_0 I43_W_in_1 I43_W_in_2" intLanes=":I43_9_0 :I43_9_1 :I43_9_2"/>
+    <junction id=":I43_16_0" type="internal" x="339.17" y="257.43" incLanes=":I43_13_0 I43_E_in_1 I43_E_in_2 I43_E_in_3 I43_S_in_3 I43_S_in_4" intLanes=":I43_1_0 :I43_1_1 :I43_1_2 :I43_7_0 :I43_7_1"/>
+
+    <connection from="I42_E_in" to="I42_W_out" fromLane="0" toLane="0" via=":I42_0_0" tl="I42" linkIndex="0" dir="s" state="O"/>
+    <connection from="I42_E_in" to="I42_W_out" fromLane="1" toLane="1" via=":I42_0_1" tl="I42" linkIndex="1" dir="s" state="O"/>
+    <connection from="I42_E_in" to="I42_W_out" fromLane="2" toLane="2" via=":I42_0_2" tl="I42" linkIndex="2" dir="s" state="O"/>
+    <connection from="I42_E_in" to="I42_S_out" fromLane="3" toLane="1" contPos="0.00" via=":I42_3_0" tl="I42" linkIndex="3" dir="l" state="o"/>
+    <connection from="I42_E_out" to="I43_W_in" fromLane="0" toLane="0" via=":PR_42_43__0_0" dir="s" state="M"/>
+    <connection from="I42_E_out" to="I43_W_in" fromLane="1" toLane="1" via=":PR_42_43__0_1" dir="s" state="M"/>
+    <connection from="I42_E_out" to="I43_W_in" fromLane="1" toLane="2" via=":PR_42_43__0_2" dir="s" state="M"/>
+    <connection from="I42_E_out" to="I43_W_in" fromLane="1" toLane="3" via=":PR_42_43__0_3" dir="s" state="M"/>
+    <connection from="I42_N_in" to="I42_W_out" fromLane="0" toLane="1" contPos="4.00" uncontrolled="1" via=":I42_7_0" dir="r" state="m"/>
+    <connection from="I42_N_in" to="I42_S_out" fromLane="1" toLane="0" via=":I42_8_0" tl="I42" linkIndex="6" dir="s" state="o"/>
+    <connection from="I42_N_in" to="I42_S_out" fromLane="2" toLane="1" via=":I42_8_1" tl="I42" linkIndex="7" dir="s" state="o"/>
+    <connection from="I42_N_in" to="I42_E_out" fromLane="3" toLane="0" contPos="0.00" via=":I42_10_0" tl="I42" linkIndex="8" dir="l" state="o"/>
+    <connection from="I42_N_in" to="I42_E_out" fromLane="4" toLane="1" contPos="0.00" via=":I42_10_1" tl="I42" linkIndex="9" dir="l" state="o"/>
+    <connection from="I42_N_zip_in" to="I42_N_in" fromLane="1" toLane="0" via=":I42_N_zip_0_0" dir="s" state="M"/>
+    <connection from="I42_N_zip_in" to="I42_N_in" fromLane="2" toLane="1" via=":I42_N_zip_0_1" dir="s" state="M"/>
+    <connection from="I42_W_in" to="I42_S_out" fromLane="0" toLane="0" contPos="4.00" uncontrolled="1" via=":I42_4_0" dir="r" state="m"/>
+    <connection from="I42_W_in" to="I42_E_out" fromLane="1" toLane="0" via=":I42_5_0" tl="I42" linkIndex="4" dir="s" state="O"/>
+    <connection from="I42_W_in" to="I42_E_out" fromLane="2" toLane="1" via=":I42_5_1" tl="I42" linkIndex="5" dir="s" state="O"/>
+    <connection from="I42_W_zip_in" to="I42_W_in" fromLane="1" toLane="0" via=":I42_W_zip_0_0" dir="s" state="M"/>
+    <connection from="I42_W_zip_in" to="I42_W_in" fromLane="1" toLane="1" via=":I42_W_zip_0_1" dir="s" state="M"/>
+    <connection from="I42_W_zip_in" to="I42_W_in" fromLane="2" toLane="2" via=":I42_W_zip_0_2" dir="s" state="M"/>
+    <connection from="I43_E_in" to="I43_N_out" fromLane="0" toLane="0" contPos="4.00" uncontrolled="1" via=":I43_0_0" dir="r" state="m"/>
+    <connection from="I43_E_in" to="I43_W_out" fromLane="1" toLane="0" via=":I43_1_0" tl="I43" linkIndex="0" dir="s" state="O"/>
+    <connection from="I43_E_in" to="I43_W_out" fromLane="2" toLane="1" via=":I43_1_1" tl="I43" linkIndex="1" dir="s" state="O"/>
+    <connection from="I43_E_in" to="I43_W_out" fromLane="3" toLane="2" via=":I43_1_2" tl="I43" linkIndex="2" dir="s" state="O"/>
+    <connection from="I43_E_zip_in" to="I43_E_in" fromLane="1" toLane="0" via=":I43_E_zip_0_0" dir="s" state="M"/>
+    <connection from="I43_E_zip_in" to="I43_E_in" fromLane="1" toLane="1" via=":I43_E_zip_0_1" dir="s" state="M"/>
+    <connection from="I43_E_zip_in" to="I43_E_in" fromLane="2" toLane="2" via=":I43_E_zip_0_2" dir="s" state="M"/>
+    <connection from="I43_E_zip_in" to="I43_E_in" fromLane="3" toLane="3" via=":I43_E_zip_0_3" dir="s" state="M"/>
+    <connection from="I43_S_in" to="I43_E_out" fromLane="0" toLane="1" contPos="4.00" uncontrolled="1" via=":I43_4_0" dir="r" state="m"/>
+    <connection from="I43_S_in" to="I43_N_out" fromLane="1" toLane="0" via=":I43_5_0" tl="I43" linkIndex="3" dir="s" state="o"/>
+    <connection from="I43_S_in" to="I43_N_out" fromLane="2" toLane="1" via=":I43_5_1" tl="I43" linkIndex="4" dir="s" state="o"/>
+    <connection from="I43_S_in" to="I43_W_out" fromLane="3" toLane="1" contPos="0.00" via=":I43_7_0" tl="I43" linkIndex="5" dir="l" state="o"/>
+    <connection from="I43_S_in" to="I43_W_out" fromLane="4" toLane="2" contPos="0.00" via=":I43_7_1" tl="I43" linkIndex="6" dir="l" state="o"/>
+    <connection from="I43_S_zip_in" to="I43_S_in" fromLane="1" toLane="0" via=":I43_S_zip_0_0" dir="s" state="M"/>
+    <connection from="I43_S_zip_in" to="I43_S_in" fromLane="2" toLane="1" via=":I43_S_zip_0_1" dir="s" state="M"/>
+    <connection from="I43_W_in" to="I43_E_out" fromLane="0" toLane="0" via=":I43_9_0" tl="I43" linkIndex="7" dir="s" state="O"/>
+    <connection from="I43_W_in" to="I43_E_out" fromLane="1" toLane="1" via=":I43_9_1" tl="I43" linkIndex="8" dir="s" state="O"/>
+    <connection from="I43_W_in" to="I43_E_out" fromLane="2" toLane="2" via=":I43_9_2" tl="I43" linkIndex="9" dir="s" state="O"/>
+    <connection from="I43_W_in" to="I43_N_out" fromLane="3" toLane="1" contPos="0.00" via=":I43_12_0" tl="I43" linkIndex="10" dir="l" state="o"/>
+    <connection from="I43_W_in" to="I43_W_out" fromLane="3" toLane="2" contPos="4.00" via=":I43_13_0" tl="I43" linkIndex="11" dir="t" state="o"/>
+    <connection from="I43_W_out" to="I42_E_in" fromLane="0" toLane="0" via=":PR_43_42__0_0" dir="s" state="M"/>
+    <connection from="I43_W_out" to="I42_E_in" fromLane="1" toLane="1" via=":PR_43_42__0_1" dir="s" state="M"/>
+    <connection from="I43_W_out" to="I42_E_in" fromLane="2" toLane="2" via=":PR_43_42__0_2" dir="s" state="M"/>
+    <connection from="I43_W_out" to="I42_E_in" fromLane="2" toLane="3" via=":PR_43_42__0_3" dir="s" state="M"/>
+
+    <connection from=":I42_0" to="I42_W_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I42_0" to="I42_W_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I42_0" to="I42_W_out" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":I42_3" to="I42_S_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":I42_4" to="I42_S_out" fromLane="0" toLane="0" via=":I42_12_0" dir="r" state="m"/>
+    <connection from=":I42_12" to="I42_S_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":I42_5" to="I42_E_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I42_5" to="I42_E_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I42_7" to="I42_W_out" fromLane="0" toLane="1" via=":I42_13_0" dir="r" state="m"/>
+    <connection from=":I42_13" to="I42_W_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":I42_8" to="I42_S_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I42_8" to="I42_S_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I42_10" to="I42_E_out" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":I42_10" to="I42_E_out" fromLane="1" toLane="1" dir="l" state="M"/>
+    <connection from=":I42_N_zip_0" to="I42_N_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I42_N_zip_0" to="I42_N_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I42_W_zip_0" to="I42_W_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I42_W_zip_0" to="I42_W_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I42_W_zip_0" to="I42_W_in" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":I43_0" to="I43_N_out" fromLane="0" toLane="0" via=":I43_14_0" dir="r" state="m"/>
+    <connection from=":I43_14" to="I43_N_out" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":I43_1" to="I43_W_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I43_1" to="I43_W_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I43_1" to="I43_W_out" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":I43_4" to="I43_E_out" fromLane="0" toLane="1" via=":I43_15_0" dir="r" state="m"/>
+    <connection from=":I43_15" to="I43_E_out" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":I43_5" to="I43_N_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I43_5" to="I43_N_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I43_7" to="I43_W_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":I43_7" to="I43_W_out" fromLane="1" toLane="2" dir="l" state="M"/>
+    <connection from=":I43_9" to="I43_E_out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I43_9" to="I43_E_out" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I43_9" to="I43_E_out" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":I43_12" to="I43_N_out" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":I43_13" to="I43_W_out" fromLane="0" toLane="2" via=":I43_16_0" dir="t" state="m"/>
+    <connection from=":I43_16" to="I43_W_out" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":I43_E_zip_0" to="I43_E_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I43_E_zip_0" to="I43_E_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":I43_E_zip_0" to="I43_E_in" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":I43_E_zip_0" to="I43_E_in" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":I43_S_zip_0" to="I43_S_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":I43_S_zip_0" to="I43_S_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":PR_42_43__0" to="I43_W_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":PR_42_43__0" to="I43_W_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":PR_42_43__0" to="I43_W_in" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":PR_42_43__0" to="I43_W_in" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":PR_43_42__0" to="I42_E_in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":PR_43_42__0" to="I42_E_in" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":PR_43_42__0" to="I42_E_in" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":PR_43_42__0" to="I42_E_in" fromLane="3" toLane="3" dir="s" state="M"/>
+
+</net>

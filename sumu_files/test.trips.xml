@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-21 10:53:56 by Eclipse SUMO duarouter Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.net.xml"/>
+        <route-files value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/olga/dev/local/notraffic/src/notraffic/dev/traffic_simulation/data/c8/test/test.add.xml"/>
+        <write-trips value="true"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="N42.S42" depart="0.00" from="I42_N_zip_in" to="I42_S_out"/>
+    <trip id="N42.W42" depart="1.00" from="I42_N_zip_in" to="I42_W_out"/>
+    <trip id="N42.N43" depart="2.00" from="I42_N_zip_in" to="I43_N_out"/>
+    <trip id="N42.E43" depart="3.00" from="I42_N_zip_in" to="I43_E_out"/>
+    <trip id="W42.S42" depart="4.00" from="I42_W_zip_in" to="I42_S_out"/>
+    <trip id="W42.W42" depart="5.00" from="I42_W_zip_in" to="I42_W_out"/>
+    <trip id="W42.N43" depart="6.00" from="I42_W_zip_in" to="I43_N_out"/>
+    <trip id="W42.E43" depart="7.00" from="I42_W_zip_in" to="I43_E_out"/>
+    <trip id="S43.S42" depart="8.00" from="I43_S_zip_in" to="I42_S_out"/>
+    <trip id="S43.W42" depart="9.00" from="I43_S_zip_in" to="I42_W_out"/>
+    <trip id="S43.N43" depart="10.00" from="I43_S_zip_in" to="I43_N_out"/>
+    <trip id="S43.E43" depart="11.00" from="I43_S_zip_in" to="I43_E_out"/>
+    <trip id="E43.S42" depart="12.00" from="I43_E_zip_in" to="I42_S_out"/>
+    <trip id="E43.W42" depart="13.00" from="I43_E_zip_in" to="I42_W_out"/>
+    <trip id="E43.N43" depart="14.00" from="I43_E_zip_in" to="I43_N_out"/>
+</routes>
